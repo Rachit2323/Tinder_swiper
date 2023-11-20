@@ -1,0 +1,15 @@
+.tinder_card {
+  flex-grow: 1;
+  display: flex;
+
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.tinder {
+  will-change: transform;
+  transition: all 0.3s ease-in-out;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
